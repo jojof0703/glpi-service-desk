@@ -33,6 +33,10 @@ Before installing GLPI, I validated the environment against its requirements, ca
 ![Ticket queue overview](screenshots/05_ticket_queue_overview.png)
 *Full ticket queue showing a realistic mix of statuses, one new, one in progress, three resolved, across: account access, hardware, network, and printer categories.* 
 
+- Built a Tier 1 / Tier 2 Desktop / Network Team group structure and demonstrated proper escalation - diagnosing and ruling out local causes before handing off an issue outside Tier 1 scope. 
+![Escalation ticket](screenshots/09_ticket_escalation.png)
+*Escalation scenario demonstrating Tier 1 scope - diagnosed and ruled out local causes before escalating to the Network Team for upstream investigation.*
+
 - Authored knowledge base articles documenting standard resolution procedures, directly tied to ticket types handled in the system.
 ![Knowledge base articles](screenshots/06_knowledge_base_articles.png)
 *Knowledge base articles written to document standard resolution procedures for common ticket types; supports faster, consistent troubleshooting.*

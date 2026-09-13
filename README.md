@@ -10,7 +10,7 @@ A self-hosted service desk lab built to simulate Tier 1 IT support workflows usi
 - **Backend:** Apache 2.4, MariaDB 10.11, PHP 8.2
 - **Directory Services:** Microsoft Active Directory 
 - **Directory Integration:** LDAP
-- **Support Structure:** Tier 1 Help Desk, Tier 2 Desktio, Network Team
+- **Support Structure:** Tier 1 Help Desk, Tier 2 Desktop, Network Team
 - **Deployment:** Self-hosted on existing home lab infrastructure
 
 
@@ -29,7 +29,7 @@ Before installing GLPI, I validated the environment against its requirements, ca
 ![Clean admin dashboard](screenshots/02_admin_dashboard_clean.png)
 *Fresh GLPI install with demonstration data disabled; clean baseline before populating sample ticket data.*
 
-- Configure six service desk ticket categories reflecting common help desk request types: Account Access, Hardware, Software, Network/Connectivity, Printer, and Onboarding/Offboarding.
+- Configured six service desk ticket categories reflecting common help desk request types: Account Access, Hardware, Software, Network/Connectivity, Printer, and Onboarding/Offboarding.
 ![Ticket categories](screenshots/03_ticket_categories.png)
 *Ticket categories configured to reflect common help desk request types.*
 
@@ -57,9 +57,6 @@ Before installing GLPI, I validated the environment against its requirements, ca
 
 User Request -> Ticket Creation -> Categorization and Prioritization -> Troubleshooting -> Resolution or Escalation -> Documentation -> Ticket Closure
 
-## Service Desk Workflow
-
-User Request → Ticket Creation → Categorization & Prioritization → Troubleshooting → Resolution or Escalation → Documentation → Ticket Closure
 
 ## Active-Directory Integration 
 

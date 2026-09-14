@@ -43,6 +43,10 @@ Before installing GLPI, I validated the environment against its requirements, ca
 ![Escalation ticket](screenshots/09_ticket_escalation.png)
 *Escalation scenario demonstrating Tier 1 scope - diagnosed and ruled out local causes before escalating to the Network Team for upstream investigation.*
 
+- Configured GLPI to collect support requests from a Gmail mailbox over IMAP/SSL and automatically convert incoming emails into service desk tickets, including requester creation, categorization, prioritization, and Tier 1 assignment. 
+![Email-generated ticket](screenshots/19_email_generated_ticket.png)
+*Inbound support email automatically converted into a GLPI ticket, then categorized, prioritized, and assigned through the Tier 1 workflow.*
+
 - Authored knowledge base articles documenting repeatable resolution procedures for common service desk issues handled in the ticketing system. 
 ![Knowledge base articles](screenshots/06_knowledge_base_articles.png)
 *Knowledge base articles written to document standard resolution procedures for common ticket types; supports faster, consistent troubleshooting.*
